@@ -17,10 +17,10 @@ const Hero = () => {
     <section id="home" className="relative min-h-[95vh] w-full overflow-hidden">
       <div className="absolute inset-0 bg-black" />
 
-      {/* Spline 2.5D character cover background */}
+      {/* Spline 3D cover background */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/atN3lqky4IzF-KEP/scene.splinecode"
+          scene="https://prod.spline.design/VyGeZv58yuk8j7Yy/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
@@ -35,7 +35,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="mb-4 inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm backdrop-blur-sm"
         >
-          Gaming-inspired, interactive 2.5D vibes
+          Interactive, tech-forward, futuristic & minimalist
         </motion.span>
 
         <motion.h1
