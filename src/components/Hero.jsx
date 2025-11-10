@@ -14,19 +14,19 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-[90vh] w-full overflow-hidden">
+    <section id="home" className="relative min-h-[95vh] w-full overflow-hidden">
       <div className="absolute inset-0 bg-black" />
 
-      {/* Spline 3D Scene */}
+      {/* Spline 2.5D character cover background */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/wwTRdG1D9CkNs368/scene.splinecode"
+          scene="https://prod.spline.design/atN3lqky4IzF-KEP/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
 
       {/* Gradient overlay for readability (doesn't block interaction) */}
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/80" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/85" />
 
       <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center px-6 pt-28 text-center text-white">
         <motion.span
@@ -35,7 +35,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="mb-4 inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm backdrop-blur-sm"
         >
-          Building fast, beautiful web experiences
+          Gaming-inspired, interactive 2.5D vibes
         </motion.span>
 
         <motion.h1
@@ -52,9 +52,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="mt-6 max-w-2xl text-base text-white/80 sm:text-lg"
+          className="mt-6 max-w-2xl text-base text-white/85 sm:text-lg"
         >
-          I craft modern, performant web apps with clean code, smooth motion, and a focus on the details that delight users.
+          I craft modern, performant web apps with clean code, smooth motion, and playful interactions that feel alive.
         </motion.p>
 
         <motion.div
